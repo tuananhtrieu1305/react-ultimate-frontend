@@ -1,0 +1,233 @@
+.user-side {
+  font-family: "Poppins", sans-serif;
+  padding: 40px 100px;
+}
+.user-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 40px;
+  margin-bottom: 30px;
+}
+.user-input {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px 0;
+}
+.user-input label {
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  font-size: 16px;
+}
+.user-input input,
+.user-input :where(.css-dev-only-do-not-override-zg0ahe).ant-input-outlined {
+  padding: 10px 20px;
+  background-color: transparent;
+  color: #fff;
+  border-width: 3px;
+  font-size: 18px;
+}
+.user-input input::placeholder,
+.user-input :where(.css-dev-only-do-not-override-zg0ahe).ant-input-outlined,
+.user-input
+  :where(.css-dev-only-do-not-override-zg0ahe).ant-input-affix-wrapper
+  .anticon.ant-input-password-icon:hover,
+.user-input
+  :where(.css-dev-only-do-not-override-zg0ahe).ant-input-affix-wrapper
+  .anticon.ant-input-password-icon {
+  color: #fff;
+}
+:where(.css-dev-only-do-not-override-zg0ahe).ant-input-outlined:focus,
+:where(.css-dev-only-do-not-override-zg0ahe).ant-input-outlined:focus-within,
+.user-input input:hover,
+:where(.css-dev-only-do-not-override-zg0ahe).ant-input-outlined,
+:where(.css-dev-only-do-not-override-zg0ahe).ant-input-outlined:hover {
+  background-color: transparent;
+}
+.user-form button {
+  max-width: 200px;
+  padding: 20px;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  height: 50px;
+  line-height: 1;
+}
+.user-table .ant-table {
+  background-color: #666;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+}
+:where(.css-dev-only-do-not-override-zg0ahe).ant-table-wrapper
+  .ant-table-thead
+  > tr
+  > th,
+:where(.css-dev-only-do-not-override-zg0ahe).ant-table-wrapper
+  .ant-table-thead
+  > tr
+  > td {
+  background-color: #666;
+  color: #fff;
+}
+.user-table .ant-table-cell-row-hover {
+  background-color: #555 !important;
+}
+.user-table .ant-table-cell a {
+  color: #fff;
+}
+.user-table .ant-pagination-item-link span {
+  color: #fff;
+}
+.user-table .ant-pagination-item-active {
+  border: none;
+}
+.user-table li a:hover:not(.active) {
+  background-color: transparent;
+}
+.user-table
+  :where(.css-dev-only-do-not-override-zg0ahe).ant-pagination
+  .ant-pagination-item
+  a {
+  color: #fff;
+}
+.user-table
+  :where(.css-dev-only-do-not-override-zg0ahe).ant-pagination
+  .ant-pagination-item-active
+  a {
+  color: #1677ff;
+}
+.user-side-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.user-side-top span {
+  font-size: 30px;
+}
+.create-user-btn {
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: 500;
+  border: 2px solid #fff;
+  color: #555;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s linear;
+}
+.create-user-btn:hover {
+  color: #fff;
+  background-color: transparent;
+}
+.ant-modal-content {
+  background-color: #666 !important;
+}
+.ant-modal-header {
+  background-color: transparent !important;
+}
+:where(.css-dev-only-do-not-override-zg0ahe).ant-modal .ant-modal-title {
+  color: #fff;
+}
+.ant-modal-close {
+  color: #fff !important;
+}
+.table-action-btn-group {
+  display: flex;
+  align-items: flex-end;
+  gap: 0 20px;
+}
+.table-action-btn-group span {
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 0.2s linear;
+}
+.table-action-btn-group span:hover {
+  opacity: 0.8;
+}
+.user-table-id-text:hover {
+  color: #2cccff !important;
+  transition: all 0.2s linear;
+}
+.user-table-drawer .ant-drawer-title {
+  font-size: 20px;
+}
+.user-table-drawer .ant-drawer-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  font-family: "Poppins", sans-serif;
+  gap: 10px 0;
+  font-size: 16px;
+}
+.user-table-drawer .ant-drawer-body p strong {
+  font-weight: 600;
+  font-size: 20px;
+}
+.table-user-id:hover {
+  color: #2cccff !important;
+  transition: all 0.2s linear;
+}
+.user-table-preview {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+.user-table-avatar,
+.user-table-preview figure {
+  width: 200px;
+  height: 200px;
+  border-radius: 100rem;
+  border: 2px solid #333;
+  align-self: center;
+  margin-bottom: 10px;
+}
+.user-table-avatar img,
+.user-table-preview figure img {
+  width: 100%;
+  border-radius: 100rem;
+  height: 100%;
+  object-fit: cover;
+}
+.avatar-upload {
+  margin-top: 10px;
+}
+.avatar-upload label {
+  font-family: "Poppins", sans-serif;
+  padding: 12px 0;
+  border: 2px solid #333;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0 10px;
+  cursor: pointer;
+  transition: all 0.2s linear;
+}
+.avatar-upload label:hover,
+.user-table-preview .button-wrap button:hover {
+  background-color: #333;
+  color: #fff;
+}
+.user-table-preview .button-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0 20px;
+}
+.user-table-preview .button-wrap button {
+  font-family: "Poppins", sans-serif;
+  padding: 12px 20px;
+  border: 2px solid #333;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0 10px;
+  cursor: pointer;
+  transition: all 0.2s linear;
+}
